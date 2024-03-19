@@ -18,13 +18,10 @@ MAIN PROC
      
     INT 21H       
     MOV BL, AL 
-    
           
     ADD CL,BL  ;CL=CL+BL
-    
              
-    SUB CL,48
-     
+    SUB CL,48  ;
           
     MOV AH, 2           
     MOV DL, CL ;OUTPUT
