@@ -21,6 +21,7 @@ MAIN PROC
     MOV BL, AL 
           
     ADD CL,BL  ;CL=CL+BL
+
              
     SUB CL,48  ;
           
