@@ -7,7 +7,7 @@
 MAIN PROC
     
     MOV CX,80
-    MOV AH, 2
+    MOV AH,2
     
     MOV DL, '*'
     

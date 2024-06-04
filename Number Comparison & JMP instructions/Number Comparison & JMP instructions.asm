@@ -29,12 +29,13 @@ MAIN PROC
     
     LEA DX, NOTE2 
     MOV AH,9
-    INT 21H 
+    INT 21H
     JMP EXIT
     
     LEVEL:
     LEA DX, NOTE3 
     MOV AH,9
     INT 21H
+    EXIT:
                                       
 END MAIN
